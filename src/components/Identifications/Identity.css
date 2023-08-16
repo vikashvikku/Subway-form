@@ -1,0 +1,48 @@
+.identity {
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0 2rem 6rem;
+}
+
+.heading {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.subheading {
+  font-size: 13px;
+  color: rgb(146, 128, 128);
+  margin: 0.3rem 0 0 0;
+}
+
+.drag {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(240, 234, 234);
+  width: 30rem;
+  height: 20rem;
+  border-radius: 5px;
+  margin: 1rem 0 0 24rem;
+}
+
+.drag-image {
+  cursor: pointer;
+}
+
+.folder {
+  color: rgb(84, 159, 194);
+  /* padding: 8rem 0 0 0; */
+  font-size: 60px;
+  cursor: pointer;
+}
+
+.next-identity {
+  margin: 1rem 0rem 0 37rem;
+  background-color: rgb(9, 112, 9);
+  width: 3rem;
+  height: 1.5rem;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}

@@ -1,0 +1,56 @@
+.personal {
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  margin: 4rem 0 2rem 6rem;
+}
+
+.heading {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.subheading {
+  font-size: 13px;
+  color: rgb(146, 128, 128);
+  margin: 0.3rem 0 0 0;
+}
+
+.details {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+  margin: 1rem 0 0 0;
+  color: rgb(129, 113, 113);
+}
+
+.dob {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.text {
+  margin: 1rem 0;
+}
+
+.input-name {
+  margin: 0 0 0 4rem;
+  width: 12rem;
+  height: 2rem;
+  border: 2px solid rgb(153, 138, 138);
+}
+
+.mobile-no div {
+  padding-left: 1.5rem;
+}
+
+.personal-next {
+  margin: 2rem 0rem 11.3rem 52rem;
+  background-color: rgb(9, 112, 9);
+  width: 3rem;
+  height: 1.5rem;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
